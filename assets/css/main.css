@@ -2301,7 +2301,7 @@
 				transform: translateZ(0);
 				opacity: 1.0;
 				display: inline-block;
-				vertical-align: middle;
+				vertical-align: bottom;
 			}
 
 			.main.style1.inactive .content {
@@ -2879,6 +2879,10 @@
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
+	
+	#intro .main.style1 .content {
+				vertical-align: bottom;
+			}
 
 /* One */
 
